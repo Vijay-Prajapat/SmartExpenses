@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(cors({
-  origin: ["http://localhost:5173", "https://smarttest123.netlify.app"],
+  origin: ["http://localhost:5173", "https://smart-expenses123.netlify.app"],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"], // allow needed methods
   allowedHeaders: ["Content-Type", "Authorization"] // allow JWT/auth headers
